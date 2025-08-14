@@ -1,9 +1,6 @@
 package tokenizers
 
 /*
-#include <dlfcn.h>
-#include <stdlib.h>
-#include "tokenizers.h"
 
 typedef void* (*from_file_func)(const char*);
 void* call_from_file(void* f, const char* path) {
